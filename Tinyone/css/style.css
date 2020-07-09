@@ -1,0 +1,149 @@
+*{
+	padding: 0;
+	margin:0;
+}
+input{
+	border: none;
+	outline: none;
+	display: block;
+}
+h1{
+	font-size: 32px;
+	font-weight: bold;
+	color: #010101;
+}
+h2{
+	font-size: 20px;
+	color: #313841;
+}
+h3{
+	color: #010101;
+	font-size: 22px;
+}
+ul,li{
+	display: block;
+}
+.p{
+	letter-spacing: -0.01em;
+	font-size: 16px;
+}
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+header{
+	background-color: #fcdb00;
+	padding-top: 68px;
+}
+.menu{
+	padding: 0 26px;
+	margin-top:10px; 
+}
+.menu__item a{
+	color:#010101;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: bold;
+}
+.offer{
+	margin-top:130px;
+}
+.offer__intro,.offer__text{
+	margin-top: 20px;
+}
+.offer__text{
+	max-width: 390px;
+}
+.iPad-icon{
+	margin-top: 62px;
+	margin-bottom: 107px;
+}
+.iPad-icon img{
+	max-width: 316px;
+	height: 470px;
+	display: block;
+	margin: auto;
+}
+.title{
+	margin-top:113px;
+}
+.title__main,.title__inner{
+	text-align: center;
+}
+.title__inner{
+	max-width: 780px;
+	margin:0 auto;
+}
+.features{
+	padding: 0 14px;
+	margin-top: 90px;
+}
+.features__inner{
+	margin-left:33px;
+}
+.features__inner>p{
+	color:#898989;
+}
+footer{
+	margin-top: 160px;
+	background-color: #010101;
+	padding-top:95px;
+}
+.footer__title{
+	text-align:center; 
+}
+.footer__title h1{
+	color: #fcdb00;
+}
+.footer__title h2{
+	max-width: 780px;
+	margin:0 auto;
+}
+.form{
+	margin-top:40px;
+}
+.form__input-email,.btn-submit{
+	height: 50px;
+	border-radius: 5px;
+}
+.form__input-email{
+	width:580px;
+	padding: 18px 24px;
+}
+.btn-submit{
+	width: 126px;
+	background-color: #fcdb00;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #010101;
+	margin-left: 21px;
+}
+.data__inner{
+	color: white;
+	text-align: center;
+	width: 180px;
+	margin:57px auto 104px auto;
+}
+
+@media screen and (max-width: 992px){
+	.logo__img{
+		display: block;
+		margin: 0 auto;
+	}
+	nav{
+		margin-top: 30px;
+	}
+	.offer{
+		text-align: center;
+	}
+	.offer__text{
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+
+}
+@media (max-width:340px){
+	.iPad-icon__img{
+		width: 100%;
+	}
+}

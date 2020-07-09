@@ -1,0 +1,233 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+a{
+text-decoration: none;
+cursor: pointer;
+}
+.top-a,footer,.container,.boxes{
+	padding: 0 120px;
+}
+
+/******************************************************************************************************
+
+Header
+
+******************************************************************************************************/
+.top-a a{
+	color: #6c3428;	
+	padding-top: 100px;
+	
+}
+
+.top-a{
+	background: url(assets/Images/curves.png) no-repeat center center/cover;
+	font-family: Arial;
+	height: 47px;
+	width: 1200px;
+    font-size: 14px;
+    color: #6c3428;
+    float: right;
+    
+}
+.top-a>div{
+	display: inline-block; 
+}
+.top1 :before {
+	content: url(assets/Images/Account-48.png);
+    margin-right:9px; 
+    display: inline-block;
+    width: 21px;
+    height: 16px;
+    position: relative;
+    top: 2px;
+   
+
+ }
+ .top1{
+ 	margin-right: 21px;
+ }
+.top2 :before {
+	width: 21px;
+	height: 20px;
+	display: inline-block;
+	content: url(assets/Images/shopping.png);
+    margin-right:10px;
+    position: relative;
+    margin-top: 4px;
+    
+}
+
+
+/*************************************************************************************************************
+Navigation
+*************************************************************************************************************/
+body{
+	margin:0 auto;
+	font-family: 'Lobster', cursive;
+	background:white url(assets/Images/Stripes.png) no-repeat center center;
+	width: 1200px;
+	height: 1120px;
+	
+}
+
+nav {
+	float:right;
+	font-size: 26px;
+	margin-top: 75px;
+}
+
+nav li{
+	float: left;
+	display: block;
+}
+
+nav li:not(:last-child){
+	margin-right: 21px;
+}
+nav a{
+	color:#94674e;
+	padding: auto;
+}
+ nav a:hover{
+ 	color:#e20711;
+ 	background: url(assets/Images/bg-menu.png) no-repeat center center/cover;
+ 	
+ }
+ .logo{ 
+ 	display: inline-block;
+ 	margin-top: 18px;
+ }
+/*************************************************************************************************************
+
+Banner
+
+**************************************************************************************************************/
+.banner {
+	background: url(assets/Images/Banner.png) no-repeat center center/cover;
+	height: 435px;
+	width: 1044px; 
+	margin:0 auto;
+	padding-top: 57px;
+	padding-left: 70px;
+}
+
+.inner-banner{
+	background: url(assets/Images/inner-banner.png) no-repeat center center/cover;
+	height: 230px;
+	width: 438px;
+	padding-left: 17px;
+}
+.inner-banner>h1{
+	font-size: 43px;
+	color: #c9030c;
+}
+.text-banner{
+	color: #464545;
+    margin-top: 26px;
+}
+.text-banner,.button{
+	font-family: Arial;
+	font-size: 18px;
+}
+.button{
+	background: #905c47;
+	color: #ffff;
+	display: block;
+	width: 106px;
+	height: 35px;
+	text-align: center;
+	padding-top: 9px;
+	border-radius: 2px;
+	box-shadow: 0 0 5px 1px #766e5e;
+	margin-top: 30px;
+	float:right;
+	margin-right: 55px;
+}
+/*************************************************************************************************************
+
+Bottom
+
+**************************************************************************************************************/
+.bot-phrase{
+	background: url(assets/Images/shape-bot.png) no-repeat center center;
+	height: 62px;
+	color: #ed1d38;
+	text-align: center;
+	margin-top: 30px;
+}
+.bot-phrase h1{
+	font-size: 26px;
+	padding-top: 18px;
+}
+.boxes{
+	background: url(assets/Images/bg-bot.png) no-repeat center center/cover;
+	display: flex;
+	justify-content: space-between;
+	height: 363px;
+}
+.box1-content,.box2-content,.box3-content{
+	background: #f6dbac;
+	width: 280px;
+	height: 247px;
+	padding-top: 15px;
+	box-shadow: 0 0 5px 1px;
+}
+.boxes p{
+    font-family: Arial;
+    font-size: 14px;
+    color: #643827;
+    padding: 24px 13px 0px 11px;
+
+}
+.boxes h3{
+	color:#049b99;
+	font-size: 20px;
+}
+.box1,.box2,.box3{
+	border-radius: 2px 2px 0 0;
+	margin-top: 60px;
+}
+.h-4{
+	font-size: 26px;
+	color:#f6dbac;
+	background: url(assets/Images/red-ribbon.png) no-repeat center center;
+	height: 42px;
+	padding: 8px 120px 9px 23px;
+}
+
+/************
+
+Footer
+
+************/
+
+footer{
+	background: url(assets/Images/Footer.png) no-repeat center center;
+	height: 34px;
+	font-size: 16px;
+}
+footer p, li{
+padding-top: 10px;
+}
+footer p{
+	color:#4c2718;
+	display: inline-block;
+
+}
+.list-footer{
+	float:right;
+	display: inline-block;
+}
+
+footer li{
+	float:left;
+	display:block;
+	color: #653827;
+	margin-right: 20px;
+}
+.list-footer a{
+	color: #653827;
+}
